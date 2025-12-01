@@ -1,0 +1,68 @@
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+}
+
+body{
+    background:#000;
+    color:#fff;
+    min-height:100vh;
+    
+}
+
+.nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:15px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(0,0,0,0.85);
+    z-index:1000;
+    animation: fadeInDown 1s ease forwards;
+
+}
+
+.logo{
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:1px;
+    color:#f5c542;
+
+}
+
+.nav a{
+    color:#fff;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:20px;
+    letter-spacing:0.5px;
+    font-weight:600;
+
+}
+
+.nav a:hover{
+    color:#f5c542;
+
+
+}
+@keyframes fadeInDown{
+    0%{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+
+
